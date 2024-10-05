@@ -6,20 +6,52 @@
     <title>Registro</title>
 </head>
 <body>
+    <form>
 
-    <h1>Registro</h1>
-    <form action="text">
-        <input type="text">
-        <button>Buscar</button>
+        
+        <h1>Registro</h1>
+        
+        <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre y Apellido">
+        <br>
+        <br>
+        <input type="text" name="usuario" id="usuario" placeholder="ingrese su usuario">
+        <br>
+        <br>
+        <input type="email" name="email" id="email" placeholder="Por favor ingrese su email">
+        <br>
+        <br>
+        <label for="fecha"> ingresar fecha de nacimiento: </label>
+        <input type="date" name="fecha" id="fecha" placeholder="ingrese su fecha de nacimiento">
+        <br>
+        <br>
+        <input type="text" name="domicilio" id="domicilio" placeholder="Ingrese su domicilio">
+        <br>
+        <br>
+        <p>Desea comprar o vender?</p>
+        <input type="radio" name="comprar">
+        <label for="comprar">Comprar</label>
+        <input type="radio" name="vender">
+        <label for="vender">Vender</label>
+
+        <h3>Categorias de interés</h3>
+
+        <select name="categorias" id="categorias">
+            <option value="electro">Electro</option>
+            <option value="moda">Moda</option>
+            <option value="">Hogar</option>
+            <option value=""></option>
+            <option value=""></option>
+        </select>
+
+        <br>
+        <br>
+    
+        <label for="image">Seleccione su foto</label>
+        <input type="image" name="image" id="image">
+
+        
     </form>
 
-    <form action="email"></form>
-    <input type="text">
-    <button>Enviar</button>
-
-    <form action="number"></form>
-    <input type="email">
-    <label for="email"></label>
-    <button>Enviar</button>
+    
 </body>
 </html>
