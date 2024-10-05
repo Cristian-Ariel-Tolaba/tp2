@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>Registro</title>
 </head>
 <body>
@@ -10,6 +14,9 @@
 
         
         <h1>Registro</h1>
+
+        <br>
+        <br>
         
         <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre y Apellido">
         <br>
@@ -20,7 +27,9 @@
         <input type="email" name="email" id="email" placeholder="Por favor ingrese su email">
         <br>
         <br>
-        <label for="fecha"> ingresar fecha de nacimiento: </label>
+        <label for="fecha"> Ingresar fecha de nacimiento: </label>
+        <br>
+        
         <input type="date" name="fecha" id="fecha" placeholder="ingrese su fecha de nacimiento">
         <br>
         <br>
@@ -28,19 +37,25 @@
         <br>
         <br>
         <p>Desea comprar o vender?</p>
+
+        <br>
+        <br>
+
         <input type="radio" name="comprar">
         <label for="comprar">Comprar</label>
         <input type="radio" name="vender">
         <label for="vender">Vender</label>
+        <br>
+        <br>
 
         <h3>Categorias de interés</h3>
 
         <select name="categorias" id="categorias">
             <option value="electro">Electro</option>
             <option value="moda">Moda</option>
-            <option value="">Hogar</option>
-            <option value=""></option>
-            <option value=""></option>
+            <option value="hogar">Hogar</option>
+            <option value="juguetería">Juguetería</option>
+            <option value="vida sana ">Vida sana</option>
         </select>
 
         <br>
@@ -48,9 +63,23 @@
     
         <label for="image">Seleccione su foto</label>
         <input type="image" name="image" id="image">
+        <br>
+        <br>
+
+        <input type="text" name="contraseña" id="contraseña" placeholder="Ingrese su contraseña">
+        <br>
+        <br>
+        <input type="text" name="confirme contraseña" id="confirmar contraseña" placeholder="Confirmar contraseña">
+        <br>
+        <br>
+        <button>Enviar</button>
+        <button>Borrar Formulario</button>
+
+        
 
         
     </form>
+
 
     
 </body>
